@@ -1,0 +1,58 @@
+Cennik::Cennik
+
+//    bilet1 = new QLabel(bilety[0].jakiTyp(),this);
+//    bilet2 = new QLabel("- Bilet VIP",this);
+//    bilet3 = new QLabel("- Bilet dla samochodów ciężarowych",this);
+//    bilet4 = new QLabel("- Bilet niepełnosprawny",this);
+//    bilet5 = new QLabel("- Bilet miesięczny",this);
+//    cena1 = new QLabel("25 zł",this);
+//    cena2 = new QLabel("50 zł",this);
+//    cena3 = new QLabel("100 zł",this);
+//    cena4 = new QLabel("80 zł",this);
+//    cena5 = new QLabel("1000 zł",this);
+
+//    bilet1->setFont(labelFont);
+//    bilet2->setFont(labelFont);
+//    bilet3->setFont(labelFont);
+//    bilet4->setFont(labelFont);
+//    bilet5->setFont(labelFont);
+//    cena1->setFont(labelFont);
+//    cena2->setFont(labelFont);
+//    cena3->setFont(labelFont);
+//    cena4->setFont(labelFont);
+//    cena5->setFont(labelFont);
+
+//    bilet1->setStyleSheet("border: 2px solid black; padding: 10px;");
+//    bilet2->setStyleSheet("border: 2px solid black; padding: 10px;");
+//    bilet3->setStyleSheet("border: 2px solid black; padding: 10px;");
+//    bilet4->setStyleSheet("border: 2px solid black; padding: 10px;");
+//    bilet5->setStyleSheet("border: 2px solid black; padding: 10px;");
+//    cena1->setStyleSheet("border: 2px solid black; padding: 10px;");
+//    cena2->setStyleSheet("border: 2px solid black; padding: 10px;");
+//    cena3->setStyleSheet("border: 2px solid black; padding: 10px;");
+//    cena4->setStyleSheet("border: 2px solid black; padding: 10px;");
+//    cena5->setStyleSheet("border: 2px solid black; padding: 10px;");
+
+//    layout->addWidget(bilet1,1,0);
+//    layout->addWidget(bilet2,2,0);
+//    layout->addWidget(bilet3,3,0);
+//    layout->addWidget(bilet4,4,0);
+//    layout->addWidget(bilet5,5,0);
+//    layout->addWidget(cena1,1,1,Qt::AlignRight);
+//    layout->addWidget(cena2,2,1,Qt::AlignRight);
+//    layout->addWidget(cena3,3,1,Qt::AlignRight);
+//    layout->addWidget(cena4,4,1,Qt::AlignRight);
+//    layout->addWidget(cena5,5,1,Qt::AlignRight);
+
+class Cennik
+
+//    QLabel * bilet1;
+//    QLabel * bilet2;
+//    QLabel * bilet3;
+//    QLabel * bilet4;
+//    QLabel * bilet5;
+//    QLabel * cena1;
+//    QLabel * cena2;
+//    QLabel * cena3;
+//    QLabel * cena4;
+//    QLabel * cena5;

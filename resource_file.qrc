@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>bilety.csv</file>
+        <file>Parking.png</file>
+        <file>czerwony_samochodzik.jpg</file>
+    </qresource>
+</RCC>
