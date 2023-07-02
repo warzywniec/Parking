@@ -43,7 +43,7 @@ Cennik::Cennik(QWidget *parent): QDialog(parent){
     setStyleSheet("background-color: #FFECB3");
     setWindowTitle("Cennik");
     setGeometry(1200,300,400,height);
-
+    setWindowFlags(Qt::Window | Qt::WindowStaysOnTopHint);
 
     nazwa = new QLabel("Cennik",this);
     for(Bilet a: bilety){
@@ -86,6 +86,8 @@ Parkomat::Parkomat(QWidget *parent): QMainWindow(parent){
     setStyleSheet("background-color: #CCCCFF");
     setWindowTitle("Parkomat");
     setFixedSize(300,180);
+    setWindowFlags(Qt::Window | Qt::WindowStaysOnTopHint);
+    setWindowModality(Qt::ApplicationModal);
     //nazwa = new QLabel("PARKOMAT",this);
     nazwa_biletu = new QLabel(bilety[currentIndex].jakiTyp(),this);
     nazwa_biletu->setObjectName("nazwa_biletu");
@@ -165,6 +167,8 @@ BiletKupiony::BiletKupiony(QWidget * parent):QDialog(parent){
 
     setFixedSize(500,100);
     setWindowTitle("Informacja");
+    setModal(true);
+
 
     QString s = bilety[currentIndex].jakiTyp() + " został kupiony.";
 

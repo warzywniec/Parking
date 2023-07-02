@@ -56,3 +56,63 @@ class Cennik
 //    QLabel * cena3;
 //    QLabel * cena4;
 //    QLabel * cena5;
+
+plik QRects.dat
+
+//#include <QDataStream>
+//#include <QFile>
+//#include <QRect>
+
+//    QList<QRect> rects;
+//    rects.append(QRect(0, 0, 132, 200));
+//    rects.append(QRect(144, 0, 150, 200));
+//    rects.append(QRect(306, 0, 139, 200));
+//    rects.append(QRect(457, 0, 132, 200));
+//    rects.append(QRect(742, 0, 131, 200));
+//    rects.append(QRect(885, 0, 150, 200));
+//    rects.append(QRect(1047, 0, 141, 200));
+//    rects.append(QRect(1200, 0, 150, 200));
+//    rects.append(QRect(0, 400, 132, 200));
+//    rects.append(QRect(457, 400, 132, 200));
+//    rects.append(QRect(742, 400, 131, 200));
+//    rects.append(QRect(885, 400, 150, 200));
+//    rects.append(QRect(1047, 400, 141, 200));
+//    rects.append(QRect(1200, 400, 150, 200));
+
+//    saveRectsToFile("miejsca.dat", rects);
+
+//void saveRectsToFile(const QString& fileName, const QList<QRect>& rects)
+//{
+//    QFile file(fileName);
+//    if (file.open(QIODevice::WriteOnly))
+//    {
+//        QDataStream out(&file);
+//        out.setVersion(QDataStream::Qt_5_0);
+
+//        for (const QRect& rect : rects)
+//        {
+//            out << rect;
+//        }
+
+//        file.close();
+//    }
+//}
+
+miejsca:
+
+//    miejsceParkingowe(QRect(0, 0, 133, 200),"");
+//    miejsceParkingowe(QRect(144,0,150,200),"");
+//    miejsceParkingowe(QRect(305,0,139,200),"");
+//    miejsceParkingowe(QRect(455,0,131,200),"");
+//    miejsceParkingowe(QRect(741,0,130,200),"");
+//    miejsceParkingowe(QRect(882,0,150,200),"");
+//    miejsceParkingowe(QRect(1042,0,140,200),"");
+//    miejsceParkingowe(QRect(1192,0,158,200),"");
+//    miejsceParkingowe(QRect(0,400,136,200),"");
+////    miejsceParkingowe(QRect(144,400,150,200),"");
+////    miejsceParkingowe(QRect(306,400,139,200),"");
+//    miejsceParkingowe(QRect(457,400,131,200),"");
+//    miejsceParkingowe(QRect(744,400,139,200),"");
+//    miejsceParkingowe(QRect(892,400,152,200),"");
+//    miejsceParkingowe(QRect(1053,400,141,200),"");
+//    miejsceParkingowe(QRect(1204,400,146,200),"");

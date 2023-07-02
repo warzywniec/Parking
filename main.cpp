@@ -8,7 +8,6 @@ int main(int argc, char *argv[]){
 
     wczytajBilety();
 
-
     QApplication a(argc, argv);
     Parking parking;
     Parkomat w;
@@ -27,3 +26,4 @@ int main(int argc, char *argv[]){
 //    w.show();
     return a.exec();
 }
+

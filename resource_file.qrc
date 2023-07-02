@@ -2,6 +2,12 @@
     <qresource prefix="/">
         <file>bilety.csv</file>
         <file>Parking.png</file>
-        <file>czerwony_samochodzik.jpg</file>
+        <file>czerwony_samochodzik.png</file>
+        <file>czarny_samochodzik.png</file>
+        <file>miejsca.dat</file>
+        <file>pomaranczowy_samochodzik.png</file>
+        <file>zolty_samochodzik.png</file>
+        <file>zielony_samochodzik.png</file>
+        <file>bialy_samochodzik.png.png</file>
     </qresource>
 </RCC>
